@@ -154,6 +154,19 @@ def display_story_node(node_id):
             'image': 'images/image3AB9.jpeg'
         },
 
+        '3AB12': {
+        'text': 'With a deep breath, you start the ritual, chanting from the parchment. The symbols on the walls begin to glow, and a cold wind sweeps through the room. Suddenly, the shadows hiss in frustration as they are sucked into an old vacuum cleaner you didn’t notice before. Turns out, the ancient sorcerer was also a pioneer in shadow disposal technology. Congratulations, you’ve not only banished the shadows but also discovered the world’s first supernatural vacuum cleaner!',
+        'choices': [],  # End of path, no further choices
+        'image': 'images/ritual_success.jpeg'
+        },
+
+        '3AB13': {
+        'text': 'Ignoring the ritual, you wander off, finding a dusty old board game titled "Jumanji: Bhangarh Edition." Shrugging, you decide to give it a go. As soon as you roll the dice, the shadows gather around, eagerly watching as if they’ve got nothing better to haunt. Each move brings more bizarre occurrences, from raining frogs to dancing skeletons. Eventually, you win the game, and the shadows, clearly entertained, decide to leave for Hollywood, dreaming of movie stardom. You’re left alone, slightly confused, but hey, at least the attic’s less crowded now.',
+        'choices': [],  # End of path, no further choices
+        'image': 'images/board_game_ending.jpeg'
+        },
+
+
         # END?
         '3AB10': {
             'text': 'Armed with knowledge from the book, you prepare to cast the spell. The air thickens, and shadows in the room begin to swirl menacingly. It\'s now or never.',
@@ -188,6 +201,18 @@ def display_story_node(node_id):
                         ('Keep searching for something to use against the Shadow.', '3AB21')],
             'image': 'images/image3AB13.jpeg'
         },
+        '3AB20': {
+        'text': 'As you ponder the sorcerer's life story, you realize the power of love, friendship, and a well-timed pun. Inspired, you decide to confront the Shadow with the most powerful weapon known to humanity: dad jokes. "Why don't skeletons fight each other? They don't have the guts." The Shadow, unprepared for this onslaught of humor, begins to chuckle, then laugh uncontrollably. It dissipates, leaving behind a note: "You got me. Be sure to tip your waitress. I'll be here all week." The house lightens, filled with the echoes of laughter.',
+        'choices': [],  # No choices, this is an ending.
+        'image': 'images/3AB20.jpeg'
+        },
+
+        '3AB21': {
+            'text': 'Your endless search through the house turns desperate. You rummage through every drawer, behind every painting, and under every loose floorboard, but find nothing. The house grows colder, the shadows darker, and the silence deeper. As you turn to leave the room, you realize the door has vanished. The walls close in, whispering secrets of a thousand lost souls. You've become part of the house's history, another shadow lurking in the corners, forever searching.',
+            'choices': [],  # No choices, this is an ending.
+            'image': 'images/image3AB21.jpeg'
+        },
+
 
         '3AB14': {
             'text': 'As you cast the spell, the shadows scream in agony, swirling into a vortex before disappearing. The house instantly feels lighter, free of the oppressive darkness that had lurked in every corner.',
