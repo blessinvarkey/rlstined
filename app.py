@@ -62,7 +62,7 @@ def display_story_node(node_id):
             'image': 'images/image3AAA.jpeg'
         },
         '4AAA': {
-            'text': 'The shadow leads you to a wall that doesn’t seem to belong. You discover a loose brick and behind it, a small, ornate key with a skull design. Do you:',
+            'text': 'The shadow leads you to a wall that doesn’t seem to belong. You discover a loose brick and behind it, a small, ornate key. Do you:',
             'choices': [('Take the key and find the lock and the door it fits.', '3AB6'),
                         ('Leave the key and turn around.', '5AAC')],
             'image': 'image4AAA.jpeg'},
