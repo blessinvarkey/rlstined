@@ -21,7 +21,7 @@ def display_story_node(node_id):
                 'haunted, holding ancient powers and dark secrets. But beware, for the choices you make will determine '
                 'your fate. Will you unlock the mysteries of the past, or will you become another ghostly tale whispered '
                 'among the shadows? Remember, in The Bhangarh House, every selection can lead to unexpected discoveries. Choose wisely, for your destiny '
-                'awaits in the shadows. (Also, you may have to double click your selection.)'),
+                'awaits in the shadows.'),
             'choices': [('Let\'s begin!', '1')],
             'image': 'images/intro.jpeg'
         },
@@ -31,8 +31,8 @@ def display_story_node(node_id):
             'image': 'images/image0.jpeg'
         },
         '1A': {
-            'text': 'In the attic, you find an old diary and a strange shadowy corner. Do you:',
-            'choices': [('Spot a strange shadow in the corner.', '2AA'),
+            'text': 'In the attic, you first spot an ancient chest. Do you:',
+            'choices': [('Spot the strange shadow lurking in the corner.', '2AA'),
                         ('Spot an ancient chest.', '2AB')],
             'image': 'images/image1A.jpeg'
         },
@@ -98,8 +98,8 @@ def display_story_node(node_id):
         },
         '2BA': {
             'text': 'After school, you ponder your next move. Do you:',
-            'choices': [('Research the history of your house.', '3BAA'),
-                        ('Visit Jay to learn more about the legend.', '3BAB')],
+            'choices': [('You decide to check out the attic.', '1A'),
+                        ('You call Jay.', '3ABB1')],
             'image': 'images/image2BA.jpeg'
         },
         '2BB': {
@@ -166,7 +166,7 @@ def display_story_node(node_id):
             'text': 'As he was unavailable, you decide to meet him at school the next day',
             'choices': [('Ask Jay about legend behind your house.', '3ABB2'),
                         ('Ask Jay to check out his attic someday.', '3ABB2')],
-            'image': 'images/image3AB12.jpeg'
+            'image': 'images/image2BB.jpeg'
         },
 
         '3ABB2': {
@@ -302,7 +302,7 @@ def display_story_node(node_id):
 
     node = story_content.get(node_id)
     if node:
-        st.image(node['image'], caption=None, width=500)  # Display the image
+        st.image(node['image'], caption=None, width=400)  # Display the image
         st.write(node['text'])
 
         for choice_text, next_node in node['choices']:
