@@ -16,8 +16,5 @@ Check out [this link](rlstined.streamlit.app/) to try the game. Follow the on-sc
 Please do feel free to contribute to _The Bhangarh House_ project!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License.
 
-## Acknowledgments
-Thanks to Streamlit for providing an amazing platform for building interactive web apps with Python.
-Inspired by the haunting tales of Bhangarh, this game aims to capture the essence of storytelling through interactive media.
