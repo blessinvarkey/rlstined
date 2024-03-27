@@ -8,12 +8,12 @@ def display_story_node(node_id):
     # Story content for the "Shadow Over Bhangarh" game.
     story_content = {
         '0': {
-            'text': 'Welcome to the town of Bhangarh, where legends whisper and shadows linger. Will you brave the secrets of the past, or will the mysteries of Bhangarh consume you?',
+            'text': 'Welcome to the town of Bhangarh, where legends whisper and shadows linger. Try to find a different ending?',
             'choices': [('Let\'s begin!', '1')],
             'image': 'images/intro.jpeg'
         },
         '1': {
-            'text': 'You are a tween who recently moved to the mysterious town of Bhangarh. You have joined the new school and lived in the town for a week now. The neighbours and school children started sharing rumors of your attic being haunted, you decide to:',
+            'text': 'You recently moved to the mysterious town of Bhangarh. You have joined the new school and lived in the town for a week now. The neighbours and school children started sharing rumors of your attic being haunted, you decide to:',
             'choices': [('Explore the attic.', '1A'), ('Forget about it and go to school the next day.', '1B')],
             'image': 'images/image0.jpeg'
         },
