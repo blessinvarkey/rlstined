@@ -1,6 +1,6 @@
 # rlstined: The Bhangarh House
 
-Check out [this link](rlstined.streamlit.app/) to try the game. Follow the on-screen prompts and make choices by clicking the buttons to navigate through the story.
+Check out [this link](https://rlstined.streamlit.app/) to try the game. Follow the on-screen prompts and make choices by clicking the buttons to navigate through the story.
 
 ## Features
 - Dynamic story progression based on user choices.
