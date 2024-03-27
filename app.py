@@ -191,7 +191,7 @@ def display_story_node(node_id):
 
         '3AB14': {
             'text': 'As you cast the spell, the shadows scream in agony, swirling into a vortex before disappearing. The house instantly feels lighter, free of the oppressive darkness that had lurked in every corner.',
-            'choices': [('You shut the book.', 'GoodEnding'), ('You leave the book open', 'BADENDING')],
+            'choices': [('You shut the book.', 'GoodEnding'), ('You leave the book open', 'bad_ending')],
             'image': 'images/image3AB14.jpeg'
         },
         '3AB15': {
@@ -304,6 +304,12 @@ def display_story_node(node_id):
             'choices': [],  # End of path, no further choices
             'image': 'images/image_end_bad_4.jpeg'
         },
+        'bad_ending':{
+            'text': 'You get sucked into the book and the book closes itself.',
+            'choices': [],  # End of path, no further choices
+            'image': 'images/bad_ending.jpeg'
+            
+        }
     }
 
     node = story_content.get(node_id)
