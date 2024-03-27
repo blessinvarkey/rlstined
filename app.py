@@ -208,10 +208,10 @@ def display_story_node(node_id):
         },
 
         '3AB21': {
-            'text': 'Your endless search through the house turns desperate. You rummage through every drawer, behind every painting, and under every loose floorboard, but find nothing. The house grows colder, the shadows darker, and the silence deeper. As you turn to leave the room, you realize the door has vanished. The walls close in, whispering secrets of a thousand lost souls. You've become part of the house's history, another shadow lurking in the corners, forever searching.',
+            'text': """Your endless search through the house turns desperate. You rummage through every drawer, behind every painting, and under every loose floorboard, but find nothing. The house grows colder, the shadows darker, and the silence deeper. As you turn to leave the room, you realize the door has vanished. The walls close in, whispering secrets of a thousand lost souls. You've become part of the house's history, another shadow lurking in the corners, forever searching.""",
             'choices': [],  # No choices, this is an ending.
             'image': 'images/image3AB21.jpeg'
-        },
+        }
 
 
         '3AB14': {
