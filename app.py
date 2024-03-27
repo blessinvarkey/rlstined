@@ -10,7 +10,7 @@ def display_story_node(node_id):
         '0': {
             'text': 'Welcome to the town of Bhangarh, where legends whisper and shadows linger. Will you brave the secrets of the past, or will the mysteries of Bhangarh consume you?',
             'choices': [('Let\'s begin!', '1')],
-            'image': 'intro.jpeg'
+            'image': 'images/intro.jpeg'
         },
         '1': {
             'text': 'You are a tween who recently moved to the mysterious town of Bhangarh. You have joined the new school and lived in the town for a week now. The neighbours and school children started sharing rumors of your attic being haunted, you decide to:',
