@@ -82,7 +82,7 @@ def display_story_node(node_id):
         '6AAF': {
             'text': 'Legends say that you and the shadow are still fighting. The end.',
             'choices': [],
-            'image': 'images/image6AAF.jpeg'
+            'image': 'images/image6AAAF.jpeg'
         },
         '6AAG': {
             'text': 'Descending into the darkness, you find yourself in a room filled with ancient artifacts. Among them, a mirror shows not your reflection, but a scene of Bhangarh in ruins. Suddenly, the mirror cracks, and the curse of ruin spreads to the town. You\'ve unleashed an ancient evil.The end.',
