@@ -58,7 +58,7 @@ def display_story_node(node_id):
         '3AAA': {
             'text': 'While fleeing you see the shadow begin forming the words in the air, "Help... Curse..." It leads you to a hidden part of the attic. Do you:',
             'choices': [('Follow the shadow\'s guidance.', '4AAA'),
-                        ('Ignore the shadow and explore another part of the attic.', '4AAB')],
+                        ('Ignore the shadow and explore another part of the attic.', '3AB7')],
             'image': 'images/image3AAA.jpeg'
         },
         '4AAA': {
@@ -287,7 +287,7 @@ def display_story_node(node_id):
         'End_Good': {
             'text': 'Using the knowledge and artifacts you\'ve gathered, you manage to break the curse. The spirits are freed, and peace returns to your home.',
             'choices': [],  # End of path, no further choices
-            'image': 'images/image_end_good.jpeg'
+            'image': 'images/image3AB14.jpeg'
         },
         'End_Bad_2': {
             'text': 'In your attempt to break the mirror, shadows come out of the mirror and get aggressive, eventually consuming the entire house in darkness, trapping you in a world devoid of light. The End.',
