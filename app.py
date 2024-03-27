@@ -197,7 +197,7 @@ def display_story_node(node_id):
         '3AB15': {
             'text': 'Your hesitation costs you dearly. The shadows sense your fear, converging into a solid form that envelops you. As everything goes dark, you realize you\'ve become part of the house\'s haunted legacy.',
             'choices': [],  # No choices, this is an ending.
-            'image': 'images/image3AB15.jpeg'
+            'image': 'images/image_end_bad_1.jpeg'
         },
         '3AB16': {
             'text': 'The artifact, a crystal pulsating with light, sits hidden in a wall cavity. As you touch it, the house shakes violently, and the Shadow appears, furious at being challenged.',
