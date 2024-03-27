@@ -16,14 +16,11 @@ def display_story_node(node_id):
                 'will the echoes of your decisions lead you down a path of no return? It\'s said that The Bhangarh House '
                 'is home to ancient secrets and hidden dangers, and today, you find yourself standing at its gates. The '
                 'air is thick with mist, and a chill runs down your spine as you step forward. You\'ve heard stories of '
-                'those who ventured into Shadowland and never returned, but the allure of the unknown calls to you. Your '
-                'journey begins on a moonlit night when an unexpected letter arrives, inviting you to explore the '
-                'legendary estate at the heart of The Bhangarh House. The estate especially the attic, is rumored to be '
+                'those who ventured into The Bhangarh House and never returned, but the allure of the unknown calls to you. Your '
+                'journey begins as you move into the legendary estate called The Bhangarh House. On arriving you learn that the estate, especially the attic, is rumored to be '
                 'haunted, holding ancient powers and dark secrets. But beware, for the choices you make will determine '
                 'your fate. Will you unlock the mysteries of the past, or will you become another ghostly tale whispered '
-                'among the shadows? If you decide to accept the invitation and step into the heart of The Bhangarh House, '
-                'select from the option below. Well here, there\'s only one. Remember, in The Bhangarh House, every '
-                'decision matters, and every selection can lead to unexpected discoveries. Choose wisely, for your destiny '
+                'among the shadows? Remember, in The Bhangarh House, every selection can lead to unexpected discoveries. Choose wisely, for your destiny '
                 'awaits in the shadows.'),
             'choices': [('Let\'s begin!', '1')],
             'image': 'images/intro.jpeg'
