@@ -205,7 +205,7 @@ def display_story_node(node_id):
             'text': 'As you ponder the sorcerer\'s life story, you realize the power of love, friendship, and a well-timed pun. Inspired, you decide to confront the Shadow with the most powerful weapon known to humanity: dad jokes. "Why don\'t skeletons fight each other? They don\'t have the guts." The Shadow, unprepared for this onslaught of humor, begins to chuckle, then laugh uncontrollably. It dissipates, leaving behind a note: "You got me. Be sure to tip your waitress. I\'ll be here all week." The house lightens, filled with the echoes of laughter.',
             'choices': [],  # No choices, this is an ending.
             'image': 'images/3AB20.jpeg'
-        }
+        },
 
         '3AB21': {
             'text': 'Your endless search through the house turns desperate. You rummage through every drawer, behind every painting, and under every loose floorboard, but find nothing. The house grows colder, the shadows darker, and the silence deeper. As you turn to leave the room, you realize the door has vanished. The walls close in, whispering secrets of a thousand lost souls. You've become part of the house's history, another shadow lurking in the corners, forever searching.',
