@@ -1,10 +1,9 @@
+import os
 import streamlit as st
 
 # Initialize 'current_node' in session_state if it doesn't exist
-
 if 'current_node' not in st.session_state:
     st.session_state['current_node'] = '0'
-
 
 def display_story_node(node_id):
     story_content = {
@@ -308,16 +307,20 @@ def display_story_node(node_id):
 
     node = story_content.get(node_id)
     if node:
-        st.image(node['image'], caption=None, width=400)  # Display the image
+        # Check if the image exists before trying to display it
+        if os.path.exists(node['image']):
+            st.image(node['image'], caption=None, width=400)
+        else:
+            st.error(f"Image not found: {node['image']}")
+
         st.write(node['text'])
 
         for choice_text, next_node in node['choices']:
             if st.button(choice_text):
-                st.session_state['current_node'] = next_node  # Update the current node in session state
+                st.session_state['current_node'] = next_node
                 break  # Break to only allow one choice to be made
     else:
-        st.write("The story node is missing or the story has ended. Choose a new path or restart the game.")
-
+        st.error("The story node is missing or the story has ended. Choose a new path or restart the game.")
 
 # Initial call to start or continue the story based on the current node in the session state
 display_story_node(st.session_state['current_node'])
