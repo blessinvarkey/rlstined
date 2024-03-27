@@ -21,7 +21,7 @@ def display_story_node(node_id):
                 'haunted, holding ancient powers and dark secrets. But beware, for the choices you make will determine '
                 'your fate. Will you unlock the mysteries of the past, or will you become another ghostly tale whispered '
                 'among the shadows? Remember, in The Bhangarh House, every selection can lead to unexpected discoveries. Choose wisely, for your destiny '
-                'awaits in the shadows.'),
+                'awaits in the shadows. (Also, you may have to double click your selection.)'),
             'choices': [('Let\'s begin!', '1')],
             'image': 'images/intro.jpeg'
         },
