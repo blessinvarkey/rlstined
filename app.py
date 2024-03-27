@@ -80,7 +80,7 @@ def display_story_node(node_id):
             'image': 'images/image6AAE.jpeg'
         },
         '6AAF': {
-            'text': 'Your challenge incites the guardian\'s fury.It attacks, but in the struggle, a hidden compartment opens, revealing a crystal that shines with pure light.Grabbing it, you banish the guardian and the shadows, but the house collapses around you.Trapped in the rubble, your last sight is the crystal\'s fading glow. The end.',
+            'text': 'Legends say that you and the shadow are still fighting. The end.',
             'choices': [],
             'image': 'images/image6AAF.jpeg'
         },
