@@ -58,7 +58,7 @@ def display_story_node(node_id):
         '3AAA': {
             'text': 'While fleeing you see the shadow begin forming the words in the air, "Help... Curse..." It leads you to a hidden part of the attic. Do you:',
             'choices': [('Follow the shadow\'s guidance.', '4AAA'),
-                        ('Ignore the shadow and explore another part of the attic.', '3AB7')],
+                        ('Ignore and run towards exit.', '3AB15')],
             'image': 'images/image3AAA.jpeg'
         },
         '4AAA': {
