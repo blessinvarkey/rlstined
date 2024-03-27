@@ -166,7 +166,7 @@ def display_story_node(node_id):
             'text': 'You decide to meet your friend Jay.',
             'choices': [('Call him.', '3ABB1'),
                         ('Meet him.', '3ABB1')],
-            'image': 'images/image3AB11.jpeg'
+            'image': 'images/image2BB.jpeg'
         },
         '3ABB1': {
             'text': 'As he was unavailable, you decide to meet him at school the next day',
