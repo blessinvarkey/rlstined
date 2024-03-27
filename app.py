@@ -64,7 +64,7 @@ def display_story_node(node_id):
             'text': 'The shadow leads you to a wall that doesn’t seem to belong. You discover a loose brick and behind it, a small, ornate key. Do you:',
             'choices': [('Take the key and find the lock and the door it fits.', '3AB6'),
                         ('Leave the key and turn around.', '5AAC')],
-            'image': 'image4AAA.jpeg'},
+            'image': 'images/image4AAA.jpeg'},
 
         '5AAC': {
             'text': 'A shadow, emerges. It accuses you of trespassing into the attic. Do you:',
