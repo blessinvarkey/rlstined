@@ -143,14 +143,14 @@ def display_story_node(node_id):
         '3AB8': {
             'text': 'The book, bound in unfamiliar material, whispers secrets of the past as you flip through its pages. It tells the story of the original occupant of the house, a sorcerer who battled the Bhangarh Shadow.',
             'choices': [('The book asks you to read out a spell ', '3AB14'),
-                        ('Go on the last page to find the name of the sorcerer', '3AB11')],
+                        ('Go on the last page to find the name of the sorcerer', '3AB13')],
             'image': 'images/image3AB8.jpeg'
         },
 
         '3AB9': {
             'text': 'The symbols are ancient runes used in warding magic. They speak of a ritual to protect against darkness. A piece of parchment lies on the floor, offering instructions for a protective circle.',
             'choices': [('Attempt the ritual.', '3AB12'),
-                        ('Ignore the ritual and keep exploring.', '3AB13')],
+                        ('You find it boring and close the book.', '3AB13')],
             'image': 'images/image3AB9.jpeg'
         },
 
@@ -161,7 +161,7 @@ def display_story_node(node_id):
         },
 
         '3AB13': {
-        'text': 'Ignoring the ritual, you wander off, finding a dusty old board game titled "Jumanji: Bhangarh Edition." Shrugging, you decide to give it a go. As soon as you roll the dice, the shadows gather around, eagerly watching as if they’ve got nothing better to haunt. Each move brings more bizarre occurrences, from raining frogs to dancing skeletons. Eventually, you win the game, and the shadows, clearly entertained, decide to leave for Hollywood, dreaming of movie stardom. You’re left alone, slightly confused, but hey, at least the attic’s less crowded now.',
+        'text': 'You close the book, wander off, finding a dusty old board game titled "Jumanji: Bhangarh Edition." Shrugging, you decide to give it a go. As soon as you roll the dice, the shadows gather around, eagerly watching as if they’ve got nothing better to haunt. Each move brings more bizarre occurrences, from raining frogs to dancing skeletons. Eventually, you win the game, and the shadows, clearly entertained, decide to leave for Hollywood, dreaming of movie stardom. You’re left alone, slightly confused, but hey, at least the attic’s less crowded now.',
         'choices': [],  # End of path, no further choices
         'image': 'images/board_game_ending.jpeg'
         },
