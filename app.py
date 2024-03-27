@@ -8,6 +8,7 @@ if 'current_node' not in st.session_state:
 def display_story_node(node_id):
     story_content = {
         '0': {
+            'title': 'The Bhangarh House',
             'text': (
                 'Welcome to The Bhangarh House. You\'re about to embark on an adventure, where shadows whisper secrets '
                 'and every choice you make, can alter your destiny. This isn\'t just any story. It\'s your story, where '
