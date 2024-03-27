@@ -143,7 +143,7 @@ def display_story_node(node_id):
         '3AB8': {
             'text': 'The book, bound in unfamiliar material, whispers secrets of the past as you flip through its pages. It tells the story of the original occupant of the house, a sorcerer who battled the Bhangarh Shadow.',
             'choices': [('The book asks you to read out a spell ', '3AB14'),
-                        ('Go on the last page to find the name of the sorcerer', '3AB13')],
+                        ('You get bored and close the book.', '3AB13')],
             'image': 'images/image3AB8.jpeg'
         },
 
