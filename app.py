@@ -48,6 +48,12 @@ def display_story_node(node_id):
             'image': 'images/image2AA.jpeg'
         },
 
+        '3AAB': {
+            'text': 'You finally have found a friend. You start dancing. Eventually you become a part of the house\'s haunted legacy. The End.',
+            'choices': [],  # No choices, this is an ending.
+            'image': 'images/image3AAB.jpeg'
+        },
+
         #### New section added here:
         '3AAA': {
             'text': 'While fleeing you see the shadow begin forming the words in the air, "Help... Curse..." It leads you to a hidden part of the attic. Do you:',
@@ -164,7 +170,7 @@ def display_story_node(node_id):
         },
         '3ABB1': {
             'text': 'As he was unavailable, you decide to meet him at school the next day',
-            'choices': [('Ask Jay about legend behind your house.', '3ABB2'),
+            'choices': [('Confront Jay as he was unavailable.', '3ABB2'),
                         ('Ask Jay to check out his attic someday.', '3ABB2')],
             'image': 'images/image2BB.jpeg'
         },
