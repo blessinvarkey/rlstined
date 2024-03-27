@@ -196,9 +196,8 @@ def display_story_node(node_id):
         },
 
         '3AB13': {
-            'text': 'Choosing to ignore the ritual, you continue to explore the room, discovering a series of personal belongings that once belonged to the sorcerer, each holding a story of loss and hope.',
-            'choices': [('Reflect on the sorcerer\'s journey.', '3AB20'),
-                        ('Keep searching for something to use against the Shadow.', '3AB21')],
+            'text': 'Choosing to ignore the ritual, you continue to explore the endless attic, discovering a series of personal belongings that once belonged to the sorcerer, each holding a story of loss and hope.',
+            'choices': [],
             'image': 'images/image3AB13.jpeg'
         },
         '3AB20': {
