@@ -13,7 +13,7 @@ Check out [this link](rlstined.streamlit.app/) to try the game. Follow the on-sc
 - Additional modules and assets as needed for project expansion.
 
 ## Contributing
-Please do feel free to contribute to "The Bhangarh House"!
+Please do feel free to contribute to _The Bhangarh House_ project!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
