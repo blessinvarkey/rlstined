@@ -42,6 +42,47 @@ def display_story_node(node_id):
                         ('Ask your new friend Jay about the "Bhangarh Shadows."', '2BB')],
             'image': 'images/image1B.jpeg'
         },
+
+        #1C sequence
+        '1C': {
+    'text': 'You notice a peculiar shadow stretching across the garden, unlike any normal shadow. It seems to beckon you with a silent whisper only you can hear. Intrigued by this anomaly, you decide to:',
+    'choices': [('Follow the shadow that moves against the natural light.', '2CA'),
+                ('Investigate the shadowy figure standing by the ancient oak tree.', '2CB')],
+    'image': 'images/image1C.jpeg'
+        },
+        '2CA': {
+            'text': 'As you follow the shadow, it leads you to a part of the garden you’ve never noticed before, where the flowers glow under the moonlight and the shadows dance in harmony. Here, the shadow splits into multiple forms, each performing a comedic skit.',
+            'choices': [('Join the shadowy skit.', '3CAA'),
+                        ('Watch the performance from a distance.', '3CAB')],
+            'image': 'images/image2CA.jpeg'
+        },
+        '3CAA': {
+            'text': 'You step into the moonlit stage and mimic the shadows. To your surprise, you become a shadow yourself, starring in endless nocturnal comedies. You’re a hit among the supernatural audience, but you can never leave the garden’s spotlight.',
+            'choices': [],
+            'image': 'images/image3CAA.jpeg'
+        },
+        '3CAB': {
+            'text': 'Watching from a distance, you enjoy the performance until the final act, where the shadows comically reenact your arrival at Bhangarh. They conclude with a bow, merging into one and disappearing, leaving behind an eerie silence and the scent of night-blooming jasmine.',
+            'choices': [],
+            'image': 'images/image3CAB.jpeg'
+        },
+        '2CB': {
+            'text': 'Approaching the figure by the ancient oak, the shadow introduces itself as the Guardian of the Garden, cursed to protect its secrets. It offers you a choice: join it in shadow form to learn the garden’s mysteries or leave and forget what you’ve seen.',
+            'choices': [('Become the garden’s shadow guardian.', '3CBA'),
+                        ('Refuse the offer and run back to the house.', '3CBB')],
+            'image': 'images/image2CB.jpeg'
+        },
+        '3CBA': {
+            'text': 'Choosing to become the garden’s shadow guardian, you transform into a shadow, gaining ancient knowledge and the power to dance across the walls of Bhangarh. While you protect the garden’s secrets, you long for the days when sunlight warmed your face.',
+            'choices': [],
+            'image': 'images/image3CBA.jpeg'
+        },
+        '3CBB': {
+            'text': 'You refuse the offer and sprint back to the house, but the shadow’s laughter follows you. From that night on, every shadow in the house seems to whisper secrets of the garden, tempting you to return to the ancient oak.',
+            'choices': [],
+            'image': 'images/image3CBB.jpeg'
+        },
+# End of 1C Sequence
         '2AA': {
             'text': 'The shadow moves! It seems to want to communicate. Do you:',
             'choices': [('Flee from the attic.', '3AAA'), ('Stay and communicate with the shadow.', '3AAB')],
