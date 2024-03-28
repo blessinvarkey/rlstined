@@ -26,6 +26,7 @@ def display_story_node(node_id):
             'image': 'images/intro.jpeg'
         },
         '1': {
+            'title': 'The Bhangarh House',
             'text': 'You recently moved to the mysterious town of Bhangarh. You have joined a new school and lived in the town for a week now. The neighbours and school children started sharing rumors of your attic being haunted, you decide to:',
             'choices': [('Explore the attic.', '1A'), ('Ignore it and go to school the next day.', '1B'), ('Decide to go for a walk in the garden', '1C')],
             'image': 'images/image0.jpeg'
@@ -375,6 +376,10 @@ def display_story_node(node_id):
     }
 
     node = story_content.get(node_id)
+    if node:
+        # Display title for nodes '0' and '1'
+        if node_id in ['0', '1']:
+            st.title(node['title'])
     if node:
         # Check if the image exists before trying to display it
         if os.path.exists(node['image']):
