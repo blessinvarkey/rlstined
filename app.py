@@ -10,18 +10,15 @@ def initialize_session_state():
 initialize_session_state()
 # Function to display the story node. Refactored for better readability.
 
-# Function to display choices and handle button clicks
-def display_node_choices(node, node_id):
-    choices = node.get('choices', [])
-    for choice_text, next_node in choices:
-        if st.button(choice_text):
-            st.session_state['current_node'] = next_node
-            st.experimental_rerun()
-            return
-    
-    # If there are no choices (end of a story path), show the restart button
-    if not choices and node_id != '0':  # Check if it's an end node and not the start node
-        display_restart_option()
+def display_story_node(node_id):
+    story_content = get_story_content()  # Call the function to get story content
+    node = story_content.get(node_id)
+    if node:
+        display_node_content(node)
+        display_node_choices(node, node_id)
+    else:
+        display_error_and_restart_option()
+
 
 # Function to display node content
 def display_node_content(node):
@@ -54,7 +51,7 @@ def display_restart_option():
         st.experimental_rerun()
 
 
-# Main 
+# Main program flow
 def main():
     initialize_session_state()
     display_story_node(st.session_state['current_node'])
