@@ -392,10 +392,10 @@ def display_story_node(node_id):
         st.error("The story node is missing or the story has ended. Choose a new path or restart the game.")
 
 # restart button
-if st.button('Restart the Story'):
-    st.session_state['current_node'] = '1'  # Reset to the starting node of the story
-    # st.experimental_rerun() to refresh the app and start over
-    st.experimental_rerun()
-
+if st.session_state['current_node'] != '0':
+    if st.button('Restart the Story'):
+        st.session_state['current_node'] = '1'  # Reset to the starting node of the story
+        # Using st.experimental_rerun() to refresh the app and start over
+        st.experimental_rerun()
 # Initial call to start or continue the story based on the current node in the session state
 display_story_node(st.session_state['current_node'])
