@@ -1,6 +1,6 @@
 # rlstined: The Bhangarh House
 
-Check out [this link](https://rlstined.streamlit.app/) to try the game. Follow the on-screen prompts and make choices by clicking the buttons to navigate through the story.
+rlstined is an Streamlit-based interactive narrative game that engages users in a choose-your-own-adventure style experience. The game dynamically presents story nodes and user choices that influence the direction of the narrative.Check out [this link](https://rlstined.streamlit.app/) to try the game. Follow the on-screen prompts and make choices by clicking the buttons to navigate through the story.
 
 ## Features
 - Dynamic story progression based on user choices.
@@ -13,7 +13,7 @@ Check out [this link](https://rlstined.streamlit.app/) to try the game. Follow t
 - Additional modules and assets as needed for project expansion.
 
 ## Contributing
-Please do feel free to contribute to _The Bhangarh House_ project!
+Feel free to contribute to _The Bhangarh House_ project! You can also reach out to me at blessinvarkey[at]gmail[dot]com for any queries. 
 
 ## License
 This project is licensed under the MIT License.
